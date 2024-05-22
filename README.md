@@ -19,6 +19,19 @@ cd MSGM
 pip install -r requirements.txt
 ```
 
+## Training Models
+To train the deep descriptors used in MSGM, follow the instructions provided in the Training Script.
+
+Training Script
+The Training Script provides a step-by-step guide to train TDescNet for deep descriptor extraction. You can find the script in the scripts directory of the repository.
+
+```bash
+cd scripts
+python training_script.py
+```
+
+This script includes data loading, model initialization, and training procedures necessary to obtain the deep descriptors for accurate whole slide image matching.
+
 ## Usage
 Here's a quick example to get you started:
 
