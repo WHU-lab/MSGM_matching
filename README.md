@@ -1,6 +1,8 @@
 # MSGM: Whole Slide Image Matching
 This repository contains the source code for MSGM, an open-source tool designed to match whole slide histopathology images (WSIs) to provide comprehensive information on homologous tissues, aiding in cancer diagnosis. 
 
+(To successfully upload to GitHub, we utilized segmented compression, uploading a total of 22 files.)
+
 ## Overview
 Accurately matching giga-pixel WSIs is crucial for cancer diagnosis but challenging due to their size. MSGM integrates traditional and learning-based methods to enhance accuracy, even for large WSIs. Our matching error is generally less than 200 micrometers compared to manually annotated gold standards, demonstrating potential to assist pathologists in routine diagnostics.
 
