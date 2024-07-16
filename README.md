@@ -10,14 +10,8 @@ Accurately matching giga-pixel WSIs is crucial for cancer diagnosis but challeng
 - **Progressive Matching**: Employs C64, C256, and 3D-ring descriptors for refined local matching with geometric consistency.
 - **Performance**: Matches 4096×4096 pixel WSIs with an average error of 123.48 μm and a 93.02% success rate.
 
-## Installation
-To install MSGM, clone the repository and install the necessary dependencies:
-
-```bash
-git clone https://github.com/yourusername/MSGM.git
-cd MSGM
-pip install -r requirements.txt
-```
+## Platform
+MSGM is computed on a 64-bit Windows 10 system with Python, utilizing a 12th Gen Intel Core i9-12900K CPU running at 3.9 GHz with 32.0 GB of RAM, and an Nvidia GeForce GTX 1080Ti with 11 GB of memory.
 
 ## Training Models
 To train the deep descriptors used in MSGM, follow the instructions provided in the Training Script.
